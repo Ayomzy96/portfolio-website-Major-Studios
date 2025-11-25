@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Major Studios - Videography portfolio (static site)",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000",
+    "serve": "npx http-server . -p 3000"
+  },
+  "keywords": [
+    "portfolio",
+    "videography",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}

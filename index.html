@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Major Studio | Videography Portfolio</title>
+    <meta name="description" content="Professional videographer and editor showcasing cinematic work">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#3B82F6',
+              secondary: '#10B981',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <custom-navbar></custom-navbar>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-screen flex items-center justify-center bg-black overflow-hidden">
+            <video autoplay muted loop class="absolute w-full h-full object-cover opacity-70">
+                <source src="https://kdijhjnkxkrfjlyavcoe.supabase.co/storage/v1/object/public/personal/trying_to_download_more_RAM_as_a_kid(360p).mp4" type="video/mp4">
+            </video>
+            <div class="relative z-10 text-center px-4">
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">Crafting Visual Stories</h1>
+                <p class="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">Cinematic videography and editing that brings your vision to life</p>
+                <a href="#work" class="bg-primary hover:bg-primary-600 text-white font-semibold py-3 px-8 rounded-full transition duration-300 inline-flex items-center">
+                    View My Work
+                    <i data-feather="arrow-down" class="ml-2"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="work" class="py-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">A showcase of my best cinematic work and editing projects</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                        <div class="aspect-w-16 aspect-h-9">
+                            <img src="http://static.photos/film/1200x630/2" alt="Short Film Project" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                            <div>
+                                <h3 class="text-white text-xl font-bold mb-2">Short Film: Midnight Drive</h3>
+                                <p class="text-gray-300">Cinematic short film shot on RED Camera</p>
+                                <a href="#" class="mt-4 inline-block text-white border-b border-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                        <div class="aspect-w-16 aspect-h-9">
+                            <img src="http://static.photos/film/1200x630/3" alt="Commercial Project" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                            <div>
+                                <h3 class="text-white text-xl font-bold mb-2">Commercial: Urban Fashion</h3>
+                                <p class="text-gray-300">High-energy fashion brand commercial</p>
+                                <a href="#" class="mt-4 inline-block text-white border-b border-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                        <div class="aspect-w-16 aspect-h-9">
+                            <img src="http://static.photos/film/1200x630/4" alt="Music Video" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-6">
+                            <div>
+                                <h3 class="text-white text-xl font-bold mb-2">Music Video: Neon Dreams</h3>
+                                <p class="text-gray-300">Conceptual music video with VFX</p>
+                                <a href="#" class="mt-4 inline-block text-white border-b border-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-16">
+                    <a href="#" class="inline-flex items-center text-primary font-semibold hover:text-primary-600 transition duration-300">
+                        View Full Portfolio
+                        <i data-feather="arrow-right" class="ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">My Services</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">Comprehensive video production services tailored to your needs</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
+                            <i data-feather="film" class="text-primary w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Videography</h3>
+                        <p class="text-gray-600">High-quality cinematic footage shot with professional equipment including RED, Sony FX, and Blackmagic cameras.</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
+                            <i data-feather="edit" class="text-primary w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Editing</h3>
+                        <p class="text-gray-600">Expert post-production with Adobe Premiere, DaVinci Resolve, and After Effects for polished final products.</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
+                            <i data-feather="award" class="text-primary w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Motion Graphics</h3>
+                        <p class="text-gray-600">Custom animations and motion graphics to enhance your videos and captivate your audience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="http://static.photos/people/640x360/10" alt="Videographer portrait" class="rounded-xl shadow-xl w-full h-auto">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Me</h2>
+                        <p class="text-lg text-gray-600 mb-6">With over 3 years in the film industry, I specialize in creating visually compelling stories that resonate with audiences. My passion lies in every step of the filmmaking process, from concept to final edit.</p>
+                        <p class="text-lg text-gray-600 mb-8">I've worked with brands, artists, and production companies to deliver high-quality video content that stands out in today's digital landscape.</p>
+                        <a href="#contact" class="bg-primary hover:bg-primary-600 text-white font-semibold py-3 px-8 rounded-full transition duration-300 inline-flex items-center">
+                            Contact Me
+                            <i data-feather="mail" class="ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Client Testimonials</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">What people say about working with me</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                <img src="http://static.photos/people/200x200/1" alt="Client" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Sarah Johnson</h4>
+                                <p class="text-gray-500 text-sm">Marketing Director, BrandCo</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Absolutely stunning work! Our commercial exceeded all expectations and has been our best performing video to date."</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                <img src="http://static.photos/people/200x200/2" alt="Client" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Michael Chen</h4>
+                                <p class="text-gray-500 text-sm">Artist, Neon Dreams</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Brought my vision to life perfectly. The attention to detail in both shooting and editing was phenomenal."</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                <img src="http://static.photos/people/200x200/3" alt="Client" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Emily Rodriguez</h4>
+                                <p class="text-gray-500 text-sm">Producer, Indie Films</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Professional, creative, and passionate. Working together was seamless and the final product was award-worthy."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-20 bg-primary text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Bring Your Vision to Life?</h2>
+                <p class="text-xl mb-8 max-w-3xl mx-auto">Let's collaborate on your next video project. Get in touch to discuss how we can create something amazing together.</p>
+                <a href="#" class="bg-white text-primary hover:bg-gray-100 font-semibold py-3 px-8 rounded-full transition duration-300 inline-flex items-center">
+                    Contact Me Today
+                    <i data-feather="mail" class="ml-2"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
