@@ -15,8 +15,6 @@ class CustomFooter extends HTMLElement {
         <div class="max-w-7xl mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div class="md:col-span-2">
-              <h3 class="text-2xl font-bold mb-4">Major Studios</h3>
-              <p class="text-gray-400 mb-6">Bringing creative visions to life through cinematic storytelling and professional editing.</p>
               <div class="flex space-x-4">
                 <a href="#" class="text-gray-400 hover:text-white transition duration-300">
                   <i data-feather="instagram"></i>
@@ -48,15 +46,17 @@ class CustomFooter extends HTMLElement {
               <ul class="space-y-2">
                 <li class="flex items-center text-gray-400">
                   <i data-feather="mail" class="w-4 h-4 mr-2"></i>
-                  contact@reelvision.com
+                  <a href="mailto:adebayojohn689@gmail.com" class="footer-link text-gray-400 hover:text-white">adebayojohn689@gmail.com</a>
                 </li>
                 <li class="flex items-center text-gray-400">
                   <i data-feather="phone" class="w-4 h-4 mr-2"></i>
-                  +1 (555) 123-4567
+                  <!-- Phone placeholder: replace with actual phone in international format -->
+                  <a href="tel:+2348154874408" class="footer-link text-gray-400 hover:text-white">+234 810 123 4567</a>
                 </li>
                 <li class="flex items-center text-gray-400">
-                  <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
-                  Los Angeles, CA
+                  <i data-feather="message-square" class="w-4 h-4 mr-2"></i>
+                  <!-- WhatsApp chat link placeholder: replace 2348085150895 with full international number (no + or spaces) -->
+                  <a href="https://wa.me/2348085150895" target="_blank" rel="noopener noreferrer" class="footer-link text-gray-400 hover:text-white">Chat on WhatsApp</a>
                 </li>
               </ul>
             </div>
