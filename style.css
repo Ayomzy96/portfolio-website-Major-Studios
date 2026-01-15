@@ -55,21 +55,7 @@ img.object-contain {
     display: block;
 }
 
-/* sensible default for inline images: scale down responsively and keep aspect */
-img {
-    max-width: 100%;
-    height: auto;
-}
 
-/* About section portrait: constrain height, center, and avoid cropping */
-.about-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    width: auto;            /* let the image use its intrinsic width */
-    max-height: 520px;     /* constrain height so it doesn't become too tall */
-}
 
 @media (max-width: 767px) {
     /* On small screens, make the portrait fill available width */
@@ -77,5 +63,22 @@ img {
         width: 100%;
         height: auto;
         max-height: none;
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+    .passport-photo {
+        width: 280px;
+        height: 260px;
+    }
+}
+
+@media (max-width: 480px) {
+    .passport-photo {
+        width: 160px; /* smaller on very small screens */
+        height: 140px;
     }
 }

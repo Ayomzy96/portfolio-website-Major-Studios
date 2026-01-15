@@ -63,7 +63,7 @@ class CustomFooter extends HTMLElement {
           </div>
           
           <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-sm">
-            <p>© ${new Date().getFullYear()} Major Studios. All rights reserved.</p>
+            <p>© ${new Date().getFullYear()} OLALEYE ADEBAYO JOHN. All rights reserved.</p>
           </div>
         </div>
       </footer>

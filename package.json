@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "Major Studios - Videography portfolio (static site)",
+  "description": "OLALEYE ADEBAYO JOHN - Videography portfolio (static site)",
   "main": "index.html",
   "scripts": {
     "start": "npx live-server --port=3000",

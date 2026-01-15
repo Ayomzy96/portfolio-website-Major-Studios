@@ -12,7 +12,7 @@ class CustomNavbar extends HTMLElement {
       <nav class="navbar fixed w-full z-50 bg-transparent py-4 px-6">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
           <a href="/" class="flex items-center">
-            <span class="text-2xl font-bold text-white">Major Studios</span>
+            <span class="text-2xl font-bold text-white">OLALEYE ADEBAYO JOHN</span>
           </a>
           
           <div class="hidden md:flex items-center space-x-8">
@@ -20,9 +20,6 @@ class CustomNavbar extends HTMLElement {
             <a href="#services" class="nav-link text-white hover:text-primary-300">Services</a>
             <a href="#about" class="nav-link text-white hover:text-primary-300">About</a>
             <a href="#contact" class="nav-link text-white hover:text-primary-300">Contact</a>
-            <a href="#" class="bg-primary hover:bg-primary-600 text-white font-semibold py-2 px-6 rounded-full transition duration-300">
-              Get a Quote
-            </a>
           </div>
           
           <button class="md:hidden text-white focus:outline-none" aria-label="Toggle menu">
